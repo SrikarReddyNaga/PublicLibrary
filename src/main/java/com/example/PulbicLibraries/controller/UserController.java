@@ -21,10 +21,5 @@ public class UserController {
     List<User> getAllReaders(){
         return userService.getAll();
     }
-//
-//    @PostMapping("/add-all")
-//    User addAll(@RequestBody User user){
-//        return userService.addAll(user);
-//    }
 
 }
